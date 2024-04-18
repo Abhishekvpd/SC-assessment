@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  justify-content: center;
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    gap: 2rem;
+
+    .actions {
+      display: flex;
+      gap: 1rem;
+      button {
+        border: none;
+        padding: 0.5rem;
+        background-color: rgb(54, 255, 255);
+      }
+    }
+  }
+}

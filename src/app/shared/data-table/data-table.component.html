@@ -1,0 +1,12 @@
+<section>
+    <table>
+        <tr>
+            <th *ngFor="let header of tableHeader">{{header}}</th>
+        </tr>
+        <tr *ngFor="let data of dataSource">
+            <td *ngFor="let header of tableHeader">
+                {{data[header]}}
+            </td>
+        </tr>
+    </table>
+</section>

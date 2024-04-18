@@ -1,0 +1,11 @@
+<section [formGroup]="loginForm">
+    <div>
+        <label>Username:</label>
+        <input type="email" placeholder="Enter your username" formControlName="username">
+    </div>
+    <div>
+        <label>Password:</label>
+        <input type="password" placeholder="Enter your password" formControlName="password">
+    </div>
+    <button type=" button" (click)="submitHandler()">Submit</button>
+</section>

@@ -1,0 +1,16 @@
+<main class="container">
+    <section class="content">
+        <div class="actions">
+            <button type="button" (click)="getBatchList()">Batch List</button>
+            <button type="button" (click)="getTemplateList()">Template List</button>
+        </div>
+
+        <app-data-table [dataSource]="dataSource" [tableHeader]="tableHeader"
+            *ngIf="dataSource && tableHeader"></app-data-table>
+
+        <div class="export-cta">
+            <button type="button" (click)="exportHandler()">Export</button>
+        </div>
+    </section>
+
+</main>

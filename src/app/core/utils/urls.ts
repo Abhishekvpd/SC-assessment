@@ -1,0 +1,1 @@
+export const baseUrl = "https://sqmc-dev.eastasia.cloudapp.azure.com/v1";
